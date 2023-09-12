@@ -1,6 +1,6 @@
 {
-    "sourceLanguageTag": "",
-    "languageTags": ["", "-de"],
+    "sourceLanguageTag": "main",
+    "languageTags": ["main", "main-de"],
     "modules": [
         "https://cdn.jsdelivr.net/npm/@inlang/plugin-i18next@latest/dist/index.js",
         "https://cdn.jsdelivr.net/npm/@inlang/message-lint-rule-missing-translation/dist/index.js",
@@ -10,7 +10,7 @@
     ],
     "settings": {
         "plugin.inlang.i18next": {
-            "pathPattern": "./lang/main{languageTag}.json",
+            "pathPattern": "./lang/{languageTag}.json",
             "ignore": ["languages.json", "translation-languages.json"]
         }
     }
