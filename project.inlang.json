@@ -6,7 +6,22 @@
         "main-ar",
         "main-be",
         "main-bg",
-        "main-ca"
+        "main-ca",
+        "main-cs",
+        "main-da",
+        "main-de",
+        "main-dsb",
+        "main-el",
+        "main-eo",
+        "main-es",
+        "main-esUS",
+        "main-et",
+        "main-eu",
+        "main-fa",
+        "main-fi",
+        "main-fr",
+        "main-frCA",
+        "main-gl"
     ],
     "modules": [
         "https://cdn.jsdelivr.net/npm/@inlang/plugin-i18next@latest/dist/index.js",
